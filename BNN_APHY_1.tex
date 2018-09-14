@@ -49,11 +49,12 @@
 					\item Weights as distributions rather than scalar parameters
 					\item Prior specification
 				\end{itemize}
-			\subsubsection{Model Architecture and the Automatic Relevance Determination Framework}
+			\subsubsection{Model Architecture and the Automatic Relevance Determination (ARD) Framework}
 				\begin{itemize}
-				    \item A bayesian hierarchical model is one in which the parameterization of coefficient distribution is
+				    \item A bayesian hierarchical model is one in which the parameterization of coefficient distributions are dependent on an overarching distribution [include kruschke figure?]
+				    \item A bayesian neural network with ARD is one where the variance of the distributions of the weights comming out of each input unit is controlled by a hierarchical distribution. This allows uncovering how relevant each feature is in predicting the target.
 				\end{itemize}
-		\subsection{Software}
+		\subsection{Data and Software Access, and Reproducibility}
 		    \begin{itemize}
 		        \item Code written in Python
 		        \item Data preparation using pandas, numpy and scikit-learn
