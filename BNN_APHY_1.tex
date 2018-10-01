@@ -47,6 +47,8 @@
 				\begin{itemize}
 					\item Neural Networks as function approximators
 					\item Weights as distributions rather than scalar parameters
+					\item Built-in regularization
+					\item Out-of-the-box uncertainties
 				\end{itemize}
 			\subsubsection{Model Architecture and the Automatic Relevance Determination (ARD) Framework}
 				\begin{itemize}
@@ -57,6 +59,7 @@
 				\begin{figure}
 				    \centering
 				    \includegraphics[scale=0.4]{bnn_l2_4_4_robust.pdf}
+				    \caption{Bayesian Model Neural Network with two hidden layers of 4 units each, trained on 145 observations and 9 features. Each layer has also an additional bias unit. All weights and biases have Laplace (double-exponential) priors with scale parameterization drawn from Half-Cauchy hyperpriors. }
 				\end{figure}
 		\subsection{Data and Software Access, and Reproducibility}
 		    \begin{itemize}
