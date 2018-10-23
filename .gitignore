@@ -12,3 +12,9 @@
 *.aux
 
 FigJar/
+
+*.odg#
+
+\.ipynb_checkpoints/
+
+__pycache__/
